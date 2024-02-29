@@ -1,0 +1,9 @@
+.banner{ width:100%; height: 321rpx; border:1px solid red;}
+.banner swiper{ height: 100%; width: 100%;}
+.banner image {width: 100%; height: 321rpx;}
+
+.majorCon{display: flex;}
+
+.major .box{text-align: center;}
+.major .pic{width: 350rpx; height: 350rpx;}
+.major .txt{font-size: 30rpx;}

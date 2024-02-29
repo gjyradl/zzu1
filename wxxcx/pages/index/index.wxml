@@ -1,0 +1,29 @@
+<view class="pyq_index">
+<SearchInput></SearchInput>
+<image src="../../images/logo.png" style="height: 150rpx;background-color: #eb4450;width: 750rpx;"></image>
+<view class="banner" >
+<swiper indicator-dots indicator-color="rgba(255,255,255,.0.5)" indicator-active-color="#999" circular autoplay interval="2000">
+<swiper-item><image src="/images/lifa02.png"/></swiper-item>
+<swiper-item><image src="/images/lifa01.jpg  "/></swiper-item>
+</swiper>
+</view>
+
+ 
+<view style="font-size:60rpx; margin-left: 30rpx;">理发预约</view>
+
+<scroll-view class="major">
+<view class="majorCon">
+<navigator url="/pages/orderlistE/orderlistE" class="box">
+<image class="pic" src="/images/n1.png"/>
+<view class="txt">男士预约</view>
+</navigator>
+
+<navigator url="/pages/orderlistW/orderlistW" class="box">
+<image class="pic" src="/images/n2.png"/>
+<view class="txt">女士预约</view>
+</navigator>
+</view>
+</scroll-view>
+
+
+</view>

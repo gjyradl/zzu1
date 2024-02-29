@@ -1,0 +1,14 @@
+<SearchInput></SearchInput>
+
+<image src="{{poster}}" style="height: 375rpx; width: 750rpx;"></image>
+<view style="font-size: 60rpx;  margin-left: 30rpx;color: rgb(169, 214, 226); ">商品详情</view>
+<view style="font-size: 100rpx;  margin-left: 30rpx;">{{title}}</view>
+<view style="color: red; font-size: 80rpx;  margin-left: 30rpx;">价格:￥{{price}}</view>
+<view style="background:red; width: 100%; height: 5rpx;"></view>
+<view style="color:grey; font-size: 60rpx;  margin-left: 30rpx; margin-right: 30rpx;">{{feature}}</view>
+
+
+<view class="bottom">
+<view style="background:#ffd591;" bindtap="handleChange">检查订单</view>
+<view style="background: #f76260;" bindtap="handleAdd" >预约</view>
+</view>

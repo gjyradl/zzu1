@@ -1,0 +1,9 @@
+.goodbox{
+  overflow: hidden;
+  padding: 10rpx;
+  }
+  
+  .goodbox image{
+    float: left;
+    width:400rpx;
+  }

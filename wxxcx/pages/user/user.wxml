@@ -1,0 +1,17 @@
+<view class="userInfo">
+<image src="{{userInfo.avatarUrl}}"></image>
+<view style="color: white;">{{userInfo.nickName}}</view>
+</view>
+<view bindtap="goNext">
+<mp-cells ext-class="my-cells">
+
+<mp-cell value="我的订单">
+  <mp-icon slot="icon" type="field" icon="me" color="#eb4450" size="{{25}}"></mp-icon>
+  <mp-icon slot="icon" type="field" icon="arrow"size="{{10}}" slot="footer"></mp-icon>
+
+
+</mp-cell>
+
+
+</mp-cells>
+</view>

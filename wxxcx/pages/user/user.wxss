@@ -1,0 +1,9 @@
+.userInfo{
+  background-color:#eb4450 ;
+  text-align: center;
+}
+.userInfo image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100rpx;
+}

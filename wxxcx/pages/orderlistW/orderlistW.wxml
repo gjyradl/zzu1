@@ -1,0 +1,7 @@
+<SearchInput></SearchInput>
+
+<view wx:for="{{goodlist}}" wx:for-index="id" wx:for-item="title" wx:key="id" class="goodbox" bindtap="handleChangePage" data-feature="{{title.feature}}" data-price="{{title.price}}" data-id="{{title.id}}" data-title="{{title.title}}" data-poster="{{title.poster}}">
+<image src="{{title.poster}}" mode="widthFix"></image>
+<view style="font-size: 50rpx;">{{title.title}}</view>
+<view style="color: red; font-size: 30rpx;">价格:￥{{title.price}}</view>
+</view>
